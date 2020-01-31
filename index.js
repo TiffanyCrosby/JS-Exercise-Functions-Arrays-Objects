@@ -80,10 +80,10 @@ function makeSmartPerson(aName) {
   /* code here */
   return {
     name: aName,
-    sum: function(num1, num2) {
+    sum: function (num1, num2) {
       return num1 + num2;
     },
-    speak: function() {
+    speak: function () {
       return `Hello, my name is ${this.name}`;
     }
   };
@@ -163,7 +163,7 @@ function getCarInfoByIndex(inventory, index) {
 function getLastCarInfo(inventory) {
   return `This is a ${inventory[inventory.length - 1].car_make} ${
     inventory[inventory.length - 1].car_model
-  }`;
+    }`;
 }
 
 /**
